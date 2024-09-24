@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.imageContainer{
+	width:1100px;
+	height:auto;
+	background-color:bullets;
+	column-span:collapse;
+}
+tr:middle-child{
+	width:600;
+	height:600px;
+}
+tr:first-child{
+	width:200px;
+}
+table tr td:last-child{
+	width:200px;
+}
