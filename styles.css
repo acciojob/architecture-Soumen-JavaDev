@@ -5,12 +5,20 @@
 	background-color:bullets;
 	column-span:collapse;
 }
-tr:middle-child{
-	width:600;
-	height:600px;
+.text{
+	text-align:center;
+	line-height:0px;
 }
-tr:first-child{
+h3{
+	text-align:center;
+}
+
+table tr td:first-child{
 	width:200px;
+}
+table tr td:nth-child(2){
+	width:600px;
+	
 }
 table tr td:last-child{
 	width:200px;
